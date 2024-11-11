@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 100vh;
+    padding-top: 70px; /* Sayfanın en üstünden biraz daha boşluk bırak */
+  }
+  
+  .scientist-container {
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    max-width: 900px; /* Container genişliğini artır */
+    padding: 60px; /* Container paddingini artır */
+    text-align: center;
+  }
+  
+  .city {
+    font-size: 52px; /* Şehir ismini daha büyük yap */
+    color: #333;
+    margin-bottom: 40px; /* Şehir ile diğer içerik arasında daha fazla boşluk */
+  }
+  
+  .scientist-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 35px;
+  }
+  
+  .scientist-photo {
+    border-radius: 50%;
+    width: 250px; /* Bilim adamı fotoğrafını daha büyük yap */
+    height: 250px;
+    object-fit: cover;
+    margin-bottom: 25px;
+  }
+  
+  .scientist-name {
+    font-size: 36px; /* Bilim adamı ismini daha büyük yap */
+    color: #555;
+  }
+  
+  .discovery {
+    background-color: #f9f9f9;
+    padding: 35px; /* Discovery alanı paddingini artır */
+    border-radius: 15px;
+    color: #666;
+    margin-top: 35px;
+  }
+  
+  .discovery h3 {
+    font-size: 34px; /* Buluş başlığını daha büyük yap */
+    color: #444;
+    margin-bottom: 20px;
+  }
+  
+  .discovery-photo {
+    width: 100%;
+    max-width: 500px; /* Buluş fotoğrafını daha geniş yap */
+    height: auto;
+    border-radius: 15px;
+    margin-bottom: 25px;
+  }
+  
+  .discovery p {
+    font-size: 24px; /* Açıklama metnini büyüt */
+    color: #555;
+  }
